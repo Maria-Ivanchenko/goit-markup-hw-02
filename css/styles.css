@@ -16,7 +16,7 @@ a {
 }
 
 .header-logo-accent {
-  color: #4d5ae5;
+  color: var(--accent-color);
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -31,12 +31,134 @@ a {
 }
 .nav-list {
   list-style-type: none;
+  font-style: normal;
   font-size: 16px;
   font-weight: 500;
 }
 .address-list {
   list-style-type: none;
+  font-style: normal;
   font-size: 16px;
   font-weight: 500;
 }
-/*-------------------------HEADER---------------*/
+/*-------------------------solutions---------------*/
+.solutions {
+  background-color: #2e2f42;
+  color: var(--secondary-text-color);
+}
+.solutions-title {
+  text-align: center;
+  color: var(--secondary-text-color);
+  font-size: 56px;
+  font-weight: 700;
+  text-align: center;
+}
+.solutions-button {
+  background-color: var(--accent-color);
+  color: var(--secondary-text-color);
+  text-align: center;
+}
+.solutions-button:hover,
+.solutions-button:active,
+.solutions-button:focus {
+  background-color: var(--secondary-text-color);
+  color: var(--accent-color);
+}
+/*-------------------------advantages---------------*/
+.advantages {
+  text-align: left;
+}
+
+.advantages-list {
+  list-style-type: none;
+}
+
+.address-title {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.address-text {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/*-------------------------What are we doing---------------*/
+.doing-title {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+}
+.doing-list {
+  list-style-type: none;
+}
+/*-------------------------TEAM---------------*/
+.team {
+}
+.team-title {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+}
+.team-list {
+  list-style-type: none;
+}
+.team-title-second {
+  font-size: 20px;
+  font-weight: 500;
+}
+.team-text {
+  font-size: 16px;
+  font-weight: 400;
+}
+/*-------------------------FOOTRR---------------*/
+.footer {
+  background-color: #2e2f42;
+}
+.footer-logo {
+  color: var(--secondary-text-color);
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 800;
+}
+.footer-logo-accent {
+  color: var(--accent-color);
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+}
+.footer-text {
+  color: var(--secondary-text-color);
+}
+/*-------------------------PORTFOLIO-------------------*/
+
+/*-------------------------FOOTRR---------------*/
+.menu-list {
+  list-style-type: none;
+}
+.menu-button {
+  text-align: center;
+}
+.menu-button:hover,
+.menu-button:active,
+.menu-button:focus {
+  background-color: #404bbf;
+  color: #ffffff;
+}
+
+.photo-list {
+  list-style-type: none;
+}
+.photo-title {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: left;
+}
+.photo-text {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+}
