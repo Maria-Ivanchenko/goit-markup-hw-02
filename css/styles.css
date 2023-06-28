@@ -1,3 +1,42 @@
+:root {
+  --accent-color: #4d5ae5;
+  --main-text-color: #111111;
+  --secondary-text-color: #ffffff;
+}
+
 body {
   font-family: "Roboto", sans-serif;
 }
+a {
+  text-decoration: none;
+}
+/*-------------------------HEADER---------------*/
+.header {
+  color: #e7e9fc;
+}
+
+.header-logo-accent {
+  color: #4d5ae5;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+}
+.header-nav-logo {
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 800;
+}
+.nav-list {
+  list-style-type: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+.address-list {
+  list-style-type: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+/*-------------------------HEADER---------------*/
