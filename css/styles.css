@@ -7,17 +7,17 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
-  color: #434455;
+    font-family: "Roboto", sans-serif;
+    color: #434455;
   background-color: var(--secondary-text-color);
 }
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 .a:hover,
 .a:active,
 .a:focus {
-  cursor: pointer;
+    cursor: pointer;
 }
 .list {
   list-style: none;
@@ -53,7 +53,7 @@ a {
   color: var(--second-color);
 }
 .nav-li {
-    color: var(--second-colorcolor);
+    color: var(--second-color);
     text-decoration:none
 }
 .nav-li:hover, .nav-li:focus{
