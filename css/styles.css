@@ -8,7 +8,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  color: #434455
+  color: #434455;
   background-color: var(--secondary-text-color);
 }
 a {
@@ -30,20 +30,8 @@ a {
 .header {
   color: #e7e9fc;
 }
-
-.header-logo {
-  color: var(--second-color);
-  text-transform: uppercase;
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-align: left;
-}
 .header-nav-logo {
-  color: var(--accent-color);
-  text-transform: uppercase;
+  color: var(--accent-color);  text-transform: uppercase;
   font-family: "Raleway", sans-serif;
   text-decoration: none;
   font-size: 18px;
@@ -51,6 +39,9 @@ a {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: left;
+}
+.header-logo {
+  color: var(--second-color);
 }
 .nav-list {
   list-style-type: none;
