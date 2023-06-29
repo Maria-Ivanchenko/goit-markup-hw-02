@@ -17,7 +17,7 @@ body {
 .link:focus {
   color: #404bbf;
 }
-
+/*----HEADER-----*/
 .header {
   background-color: #e7e9fc;
 }
@@ -52,4 +52,31 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-style: normal;
+}
+
+/*----section 1-----*/
+.solutions {
+  background-color: #2e2f42;
+  text-align: center;
+}
+.solutions-title {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.solutions-button {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.solutions-button:hover,
+.solutions-button:focus {
+  background-color: #404bbf;
 }
