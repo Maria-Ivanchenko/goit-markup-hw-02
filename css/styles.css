@@ -1,3 +1,8 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: var(--secondary-text-color);
+}
 :root {
   --accent-color: #4d5ae5;
   --second-color: #2e2f42;
@@ -6,11 +11,6 @@
   --secondary-text-color: #ffffff;
 }
 
-body {
-  font-family: "Roboto", sans-serif;
-  color: #434455;
-  background-color: var(--secondary-text-color);
-}
 a {
   text-decoration: none;
 }
