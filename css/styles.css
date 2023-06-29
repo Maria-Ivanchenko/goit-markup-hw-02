@@ -8,7 +8,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--color);
+color: #434455;
   background-color: var(--secondary-text-color);
 }
 a {
@@ -32,7 +32,7 @@ a {
 }
 
 .header-logo {
-  color: var(--accent-color);
+  color: var(--second-color);
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -42,7 +42,7 @@ a {
   text-align: left;
 }
 .header-nav-logo {
-  color: var(--second-color);
+  color: var(--accent-color);
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
   text-decoration: none;
@@ -62,6 +62,18 @@ a {
   color: var(--second-color);
 }
 .nav-li {
+    color: var(--second-colorcolor);
+    text-decoration:none
+}
+.nav-li:hover, .nav-li:focus{
+    color: #404bbf
+}
+.address{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-style: normal;
 }
 .address-list {
   list-style-type: none;
