@@ -80,3 +80,94 @@ body {
 .solutions-button:focus {
   background-color: #404bbf;
 }
+
+/*----section 2-----*/
+.advantages {
+  text-align: center;
+}
+
+.advantages-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.advantages-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/*----section 3-----*/
+.activity {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.activity-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+/*----section 4-----*/
+.team {
+  background-color: #f4f4fd;
+  text-align: center;
+}
+.team-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.worker {
+  background-color: #ffffff;
+}
+.team-title-second {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.team-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/*----footer-----*/
+.footer {
+  background-color: #2e2f42;
+}
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+  text-transform: uppercase;
+}
+.footer-logo-accent {
+  color: #f4f4fd;
+}
+
+.footer-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
