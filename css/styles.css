@@ -8,10 +8,7 @@ body {
   color: #434455;
   background-color: var(--white-color);
 }
-:root {
-  --accent-color: #4d5ae5;
-  --white-color: #ffffff;
-}
+
 .link {
   text-decoration: none;
   color: #434455;
