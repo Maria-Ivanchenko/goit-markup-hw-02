@@ -173,6 +173,7 @@ body {
 
 /*----PAGE 2-----*/
 .menu-button {
+  font-family: "Roboto", sans-serif
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -186,4 +187,18 @@ body {
 .menu-button:focus {
   color: #ffffff;
   background-color: #404bbf;
+}
+.photo-title{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.photo-text{
+font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
