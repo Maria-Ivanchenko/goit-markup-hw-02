@@ -170,3 +170,21 @@ body {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
+
+/*----PAGE 2-----*/
+.menu-button {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: var(--accent-color);
+  background-color: #f4f4fd;
+  cursor: pointer;
+}
+.menu-button:hover,
+.menu-button:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
